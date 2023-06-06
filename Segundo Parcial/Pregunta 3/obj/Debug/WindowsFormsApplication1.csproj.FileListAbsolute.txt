@@ -1,0 +1,24 @@
+C:\Users\INF-322\Desktop\clase07092022\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\INF-322\Desktop\clase07092022\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\INF-322\Desktop\clase07092022\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\INF-322\Desktop\clase07092022\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\INF-322\Desktop\clase07092022\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\INF-322\Desktop\clase07092022\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\INF-322\Desktop\clase07092022\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\INF-322\Desktop\clase07092022\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\Inf - 324\Segundo Parcial\bin\Debug\WindowsFormsApplication1.exe
+E:\Inf - 324\Segundo Parcial\bin\Debug\WindowsFormsApplication1.pdb
+E:\Inf - 324\Segundo Parcial\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\Inf - 324\Segundo Parcial\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\Inf - 324\Segundo Parcial\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\Inf - 324\Segundo Parcial\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\Inf - 324\Segundo Parcial\obj\Debug\WindowsFormsApplication1.exe
+E:\Inf - 324\Segundo Parcial\obj\Debug\WindowsFormsApplication1.pdb
+E:\Inf - 324\Segundo Parcial\Pregunta 3\obj\Debug\WindowsFormsApplication1.exe
+E:\Inf - 324\Segundo Parcial\Pregunta 3\obj\Debug\WindowsFormsApplication1.pdb
+E:\Inf - 324\Segundo Parcial\Pregunta 3\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\Inf - 324\Segundo Parcial\Pregunta 3\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\Inf - 324\Segundo Parcial\Pregunta 3\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\Inf - 324\Segundo Parcial\Pregunta 3\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\Inf - 324\Segundo Parcial\Pregunta 3\bin\Debug\WindowsFormsApplication1.exe
+E:\Inf - 324\Segundo Parcial\Pregunta 3\bin\Debug\WindowsFormsApplication1.pdb

@@ -1,0 +1,17 @@
+<?php
+    $sql = "select * from bd_academicos.alumno ";
+    $sql.= "where id = 25";
+    $resultado = mysqli_query($con,$sql);
+    $registros = mysqli_fetch_array($resultado);
+    $nombre = $registros["nombrecompleto"];
+    $ci=$registros["ci"];
+    $matricula=$registros["matricula"];
+?>
+<h1>Documentos de inscripcion</h1>
+<p>Debera presentar los siguientes documentos: <br>
+    <?php echo "Alumno: ".$nombre;?><br>
+    Matricula universitaria
+    <input type = "text" name="matricula" value="<?php echo $matricula;?>"/><br>
+    Carnet de Identidad
+    <input type = "text" name="ci" value="<?php echo $ci;?>"/><br>
+</p>
