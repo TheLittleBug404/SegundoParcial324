@@ -1,0 +1,26 @@
+//CREAMOS LA BASE DE DATOS
+
+create database imagenes;
+
+//CREAMOS LA TABLA COLORES
+
+create table colores
+(
+	descripcion varchar(25),
+	R int,
+	G int,
+	B int,
+	color varchar(25)
+)
+
+//LLENAMOS DATOS A LA TABLA COLORES
+
+INSERT colores (descripcion,R,G,B,color) VALUES ('Azul',0,0,255,'0000FF')
+INSERT colores (descripcion,R,G,B,color) VALUES ('Gris',128,128,128,'808080')
+INSERT colores (descripcion,R,G,B,color) VALUES ('Verde',0,128,0,'008000')
+INSERT colores (descripcion,R,G,B,color) VALUES ('Morado',128,0,128,'800080')
+INSERT colores (descripcion,R,G,B,color) VALUES ('Rojo',255,0,0,'FF0000')
+INSERT colores (descripcion,R,G,B,color) VALUES ('Blanco',255,255,255,'FFFFFF')
+INSERT colores (descripcion,R,G,B,color) VALUES ('Azul Alicia',240, 248, 255,'F0F8FF')
+INSERT colores (descripcion,R,G,B,color) VALUES ('Coral',255, 127, 80,'FF7F50')
+INSERT colores (descripcion,R,G,B,color) VALUES ('FireBrick',178, 34, 34,'B22222')
