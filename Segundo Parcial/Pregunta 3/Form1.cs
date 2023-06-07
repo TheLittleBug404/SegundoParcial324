@@ -59,7 +59,7 @@ namespace WindowsFormsApplication1
             SqlConnection con = new SqlConnection();
             SqlCommand cmd = new SqlCommand();
 
-            con.ConnectionString = "Server=DESKTOP-KMU86PG\\SQLEXPRESS;Database=imagenes2;Trusted_Connection=True;MultipleActiveResultSets = true; TrustServerCertificate=True";
+            con.ConnectionString = @"Server=DESKTOP-LE25J7V\SQLEXPRESS;Database=imagenes;Trusted_Connection=True;MultipleActiveResultSets = true; TrustServerCertificate=True";
             cmd.Connection = con;
             cmd.CommandText = "INSERT INTO colores VALUES('" + textBox4.Text + "'," + mR.ToString() + "," + mG.ToString() + "," + mB.ToString() + ",'" + textBox5.Text + "')";
             con.Open();
@@ -119,7 +119,7 @@ namespace WindowsFormsApplication1
             Color c = new Color();
             int clR, clG, clB;
             string colorcambio;
-            con.ConnectionString = "Server=DESKTOP-KMU86PG\\SQLEXPRESS;Database=imagenes2;Trusted_Connection=True;MultipleActiveResultSets = true; TrustServerCertificate=True";
+            con.ConnectionString = @"Server=DESKTOP-LE25J7V\SQLEXPRESS;Database=imagenes;Trusted_Connection=True;MultipleActiveResultSets = true; TrustServerCertificate=True";
             cmd.Connection = con;
             cmd.CommandText = "SELECT * FROM colores";
             con.Open();
@@ -143,11 +143,6 @@ namespace WindowsFormsApplication1
                             clG = Convert.ToInt32(colorcambio.Substring(2, 2), 16);
                             clB = Convert.ToInt32(colorcambio.Substring(4, 2), 16);
                             textBox5.Text = clB.ToString();
-                            if (colorcambio == "333dff")
-                                bmp2.SetPixel(i, j, Color.FromArgb(clR, clG, clB));
-                            if (colorcambio == "4d1f05")
-                                bmp2.SetPixel(i, j, Color.FromArgb(clR, clG, clB));
-                            if (colorcambio == "054d1a")
                                 bmp2.SetPixel(i, j, Color.FromArgb(clR, clG, clB));
                         }
                         else
@@ -166,13 +161,13 @@ namespace WindowsFormsApplication1
             SqlDataReader dr;
             string colorcambio;
             int clR, clG, clB;
-
+            //Bitmap construye una imagen vacia
             Bitmap bmp = new Bitmap(pictureBox1.Image);
             Bitmap bmp2 = new Bitmap(bmp.Width, bmp.Height);
             int mmR, mmG, mmB;
             Color c = new Color();
 
-            con.ConnectionString = "server=(local);user=usuario;pwd='';database=imagenes2";
+            con.ConnectionString = @"Server=DESKTOP-LE25J7V\SQLEXPRESS;Database=imagenes;Trusted_Connection=True;MultipleActiveResultSets = true; TrustServerCertificate=True";
             cmd.Connection = con;
             cmd.CommandText = "SELECT * FROM colores";
             con.Open();
@@ -189,7 +184,7 @@ namespace WindowsFormsApplication1
                     for (int j = 0; j < bmp.Height - 10; j = j + 10)
                     {
                         mmR = 0; mmG = 0; mmB = 0;
-                        for (int k = i; k < i + 10; k++)
+                        for (int k = i; k < i + 10; k++){
                             for (int l = j; l < j + 10; l++)
                             {
                                 c = bmp.GetPixel(k, l);
@@ -197,6 +192,7 @@ namespace WindowsFormsApplication1
                                 mmG = mmG + c.G;
                                 mmB = mmB + c.B;
                             }
+                        }
                         mmR = mmR / 100;
                         mmG = mmG / 100;
                         mmB = mmB / 100;
@@ -214,12 +210,6 @@ namespace WindowsFormsApplication1
                             for (int k = i; k < i + 10; k++)
                                 for (int l = j; l < j + 10; l++)
                                 {
-                                    //bmp2.SetPixel(k, l, Color.Black);
-                                    if (colorcambio == "333dff")
-                                        bmp2.SetPixel(k, l, Color.FromArgb(clR, clG, clB));
-                                    if (colorcambio == "4d1f05")
-                                        bmp2.SetPixel(k, l, Color.FromArgb(clR, clG, clB));
-                                    if (colorcambio == "054d1a")
                                         bmp2.SetPixel(k, l, Color.FromArgb(clR, clG, clB));
                                 }
                         }
